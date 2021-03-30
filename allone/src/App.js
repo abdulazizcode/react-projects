@@ -1,10 +1,12 @@
 import React from "react";
-import Slider from "./slider/Slider";
+// import Slider from "./slider/Slider";
+// import Lorem from "./lorem/Lorem";
+
 const App = () => {
   return(
     <div className="app">
-      <h1>App Component</h1>
-       <Slider/>
+       {/* <Slider/> */}
+       {/* <Lorem/> */}
     </div>
   )
 }
