@@ -1,8 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-// import "./slider/index.css"
-// import "./lorem/index.css"
+import "./header/index.css";
 
 ReactDOM.render(
     <App />,

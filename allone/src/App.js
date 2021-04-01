@@ -1,12 +1,10 @@
 import React from "react";
-// import Slider from "./slider/Slider";
-// import Lorem from "./lorem/Lorem";
+import Header from "./header/Header";
 
 const App = () => {
   return(
     <div className="app">
-       {/* <Slider/> */}
-       {/* <Lorem/> */}
+    	<Header/>
     </div>
   )
 }
