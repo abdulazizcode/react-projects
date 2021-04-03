@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import "./header/index.css";
+import "./sidebar-modal/index.css";
 
 ReactDOM.render(
     <App />,
