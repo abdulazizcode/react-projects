@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import "./sidebar-modal/index.css";
-import {AppProvider} from "./sidebar-modal/context";
+import "./submenu/index.css";
+import {AppProvider} from "./submenu/context";
 
 ReactDOM.render(
 	<AppProvider>
