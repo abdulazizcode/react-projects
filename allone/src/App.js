@@ -1,21 +1,22 @@
 import React from "react";
-
-//import Header from "./sidebar-modal/Home";
-//import Modal from "./sidebar-modal/Modal";
-//import SideBar from "./sidebar-modal/SideBar";
-
-import Navbar from './submenu/Navbar'
-import Hero from './submenu/Hero'
-import Sidebar from './submenu/Sidebar'
-import Submenu from './submenu/Submenu'
+import CartContainer from "./cart/CartContainer";
+import Navbar from "./cart/Navbar";
+import { useGlobalContext } from './cart/context'
 
 const App = () => {
+	const {loading} = useGlobalContext();
+	if (loading) {
+		return(
+			<div className="loading">
+				<h1>Loading</h1>
+			</div>
+		)
+	}
+
   return(
     <div className="app">
     	<Navbar/>
-    	<Sidebar/>
-    	<Hero/>
-    	<Submenu/>
+    	<CartContainer/>
     </div>
   )
 }

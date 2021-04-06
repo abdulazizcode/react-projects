@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import "./submenu/index.css";
-import {AppProvider} from "./submenu/context";
+import "./cart/index.css";
+import {AppProvider} from "./cart/context";
 
 ReactDOM.render(
 	<AppProvider>
